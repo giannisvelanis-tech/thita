@@ -7,6 +7,7 @@
 <title>THITA entertainment solutions</title>
 <meta name="description" content="Ενοικίαση επαγγελματικών συστημάτων ήχου, φωτισμού και εικόνας για γάμους, συναυλίες και εκδηλώσεις.">
 <link rel="icon" href="img/icon.png">
+<link rel="alternate" hreflang="en" href="en.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Manrope:wght@400;500;600;700&display=swap">
@@ -45,6 +46,9 @@ section{padding-block:clamp(72px,10vw,128px)}
 .top nav a{text-decoration:none;opacity:.8}
 .top nav a:hover{opacity:1}
 @media (max-width:640px){.top nav{display:none}}
+.top .lang{margin-left:26px;text-decoration:none;font-size:.82rem;font-weight:600;letter-spacing:.08em;border:1px solid rgba(237,234,242,.35);border-radius:999px;padding:5px 12px}
+.top .lang:hover{border-color:rgba(237,234,242,.8)}
+@media (max-width:640px){.top .lang{margin-left:auto}}
 
 /* hero: photo carries the colour, page stays calm */
 .hero{background:var(--night);color:var(--on-night);padding-block:clamp(120px,16vw,170px) clamp(56px,8vw,96px)}
@@ -125,6 +129,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
       <a href="#douleies">Δουλειές</a>
       <a href="#epikoinonia">Επικοινωνία</a>
     </nav>
+    <a class="lang" href="en.html" hreflang="en" lang="en">EN</a>
   </div>
 </header>
 
